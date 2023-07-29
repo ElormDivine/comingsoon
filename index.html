@@ -1,158 +1,614 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html lang="en">
+
 <head>
-	<title>Coming Soon 4</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+   <!-- Meta titles -->
+   <title>Templates Awesome | Modern UIUX Tailwind CSS template</title>
+   <meta name="description" content="emplates Awesome | Modern UIUX Tailwind CSS template">
+   <meta name="keywords" content="Templates Awesome, Modern UIUX Tailwind CSS template">
+   <!-- Meta titles -->
+
+   <!-- OG META's -->
+   <meta property="og:url" content="https://templatesawesome.com/">
+   <meta property="og:title" content="Templates Awesome | Modern UIUX Tailwind CSS template">
+   <meta property="og:description" content="Templates Awesome | Modern UIUX Tailwind CSS template">
+   <meta property="og:keywords" content="Templates Awesome, Modern UIUX Tailwind CSS template">
+   <meta property="og:locale" content="en_US">
+   <meta property="og:site_name" content="Templates Awesome">
+   <meta property="og:type" content="website">
+   <!-- OG META's -->
+
+   <meta name="theme-color" content="#ffffff">
+
+   <!-- Crtitical styles here -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+   <link href="./css/main.css" rel="stylesheet">
 </head>
-<body>
-	
-	
-	<div class="bg-g1 size1 flex-w flex-col-c-sb p-l-15 p-r-15 p-t-55 p-b-35 respon1">
-		<span></span>
-		<div class="flex-col-c p-t-50 p-b-50">
-			<h4 class="l1-txt1 txt-center p-b-10">
-				<img src="images/icons/SSHLogo.png" style="height: 5rem; width: 4.5rem;"/>
-			</h4>
-			<h3 class="l1-txt1 txt-center p-b-10">
-				Coming Soon
-			</h3>
 
-			<p class="txt-center l1-txt2 p-b-60">
-				Our website is under construction
-			</p>
+<body class="bg-bg-main text-white font-normal">
+   <div class="main">
+      <header class="md:h-20 flex h-16 items-center fixed w-full z-50 backdrop-blur-sm">
+         <div class="container">
+            <div class="flex justify-between items-center">
+               <a class="font-black md:text-xl text-sm" href="https://templatesawesome.com/" target="_blank"
+                  title="Templates Awesome">Templates <span class="text-accent">Awesome</span></a>
 
-			<div class="flex-w flex-c cd100 p-b-82">
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 days">35</span>
-					<span class="s1-txt1">Days</span>
-				</div>
+               <nav class="lg:flex hidden nav justify-between items-center space-x-16">
+                  <li class="flex">
+                     <a href="#" class="group inline-flex items-center black hover:text-accent text-base">
+                        <span>Home</span>
+                     </a>
+                  </li>
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 hours">17</span>
-					<span class="s1-txt1">Hours</span>
-				</div>
+                  <li class="flex">
+                     <a href="#" class="group inline-flex items-center black hover:text-accent text-base opacity-70">
+                        <span>About Us</span>
+                     </a>
+                  </li>
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 minutes">50</span>
-					<span class="s1-txt1">Minutes</span>
-				</div>
+                  <li class="flex">
+                     <a href="#" class="group inline-flex items-center black hover:text-accent text-base opacity-70">
+                        <span>Features</span>
+                     </a>
+                  </li>
 
-				<div class="flex-col-c-m size2 how-countdown">
-					<span class="l1-txt3 p-b-9 seconds">39</span>
-					<span class="s1-txt1">Seconds</span>
-				</div>
-			</div>
+                  <li class="flex">
+                     <a href="#" class="group inline-flex items-center black hover:text-accent text-base opacity-70">
+                        <span>Solution</span>
+                     </a>
+                  </li>
+               </nav>
 
-			<button class="flex-c-m s1-txt2 size3 how-btn"  data-toggle="modal" data-target="#subscribe">
-				Follow us for update now!
-			</button>
-		</div>
+               <div class="lg:hidden">
+                  <div class="header__burger burger relative" data-menu="mobile-menu" onclick="openMenu(this);">
+                     <svg width="32" height="32" viewBox="0 0 100 100">
+                        <path class="burger__line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+                        </path>
+                        <path class="burger__line2" d="M 20,50 H 80"></path>
+                        <path class="burger__line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+                        </path>
+                     </svg>
+                  </div>
+               </div>
 
-		<span class="s1-txt3 txt-center">
-			@ 2023 Silicon Star Hub. Designed by <a>Elorm</a>
-		</span>
-		
-	</div>
+               <div x-show="open" x-transition:enter="duration-200 ease-out"
+                  x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
+                  x-transition:leave="duration-100 ease-in" x-transition:leave-start="opacity-100 scale-100"
+                  x-transition:leave-end="opacity-0 scale-95"
+                  x-description="Mobile menu, show/hide based on mobile menu state."
+                  class="hidden mobile-menu absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden z-50" x-ref="panel"
+                  @click.away="open = false">
+                  <div class="divide-y-2 divide-gray-50 rounded-lg bg-main shadow-lg ring-1 ring-black ring-opacity-5">
+                     <div class="px-5 pt-5 pb-6">
+                        <div class="flex items-center justify-between">
+                           <div class="font-black md:text-xl text-sm">
+                              Templates <span class="text-accent">Awesome</span>
+                           </div>
+                        </div>
+                        <div class="mt-6">
+                           <nav class="grid gap-y-8">
 
-	<!-- Modal Login -->
-	<div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="modal-subscribe where1-parent bg0 bor2 size4 p-t-54 p-b-100 p-l-15 p-r-15">
-				<button class="btn-close-modal how-btn2 fs-26 where1 trans-04">
-					<i class="zmdi zmdi-close"></i>
-				</button>
+                              <a href="#" class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50">
+                                 <svg class="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                    x-description="Heroicon name: outline/chart-bar" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                       d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z">
+                                    </path>
+                                 </svg>
+                                 <span class="ml-3 text-base font-medium text-gray-900">Product</span>
+                              </a>
 
-				<div class="wsize1 m-lr-auto">
-					<h3 class="m1-txt1 txt-center p-b-36">
-						<span class="bor1 p-b-6">Subscribe</span>
-					</h3>
+                              <a href="#" class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50">
+                                 <svg class="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                    x-description="Heroicon name: outline/cursor-arrow-rays"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                       d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59">
+                                    </path>
+                                 </svg>
+                                 <span class="ml-3 text-base font-medium text-gray-900">Template</span>
+                              </a>
 
-					<p class="m1-txt2 txt-center p-b-40">
-						Follow us for update now!
-					</p>
+                              <a href="#" class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50">
+                                 <svg class="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                    x-description="Heroicon name: outline/shield-check"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                       d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z">
+                                    </path>
+                                 </svg>
+                                 <span class="ml-3 text-base font-medium text-gray-900">Blog</span>
+                              </a>
 
-					<form class="contact100-form validate-form">
-						<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-							<input class="s1-txt4 placeholder0 input100" type="text" name="name" placeholder="Name">
-							<span class="focus-input100"></span>
-						</div>
+                              <a href="#" class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50">
+                                 <svg class="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                    x-description="Heroicon name: outline/squares-2x2"
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                       d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z">
+                                    </path>
+                                 </svg>
+                                 <span class="ml-3 text-base font-medium text-gray-900">Product</span>
+                              </a>
 
-						<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-							<input class="s1-txt4 placeholder0 input100" type="text" name="email" placeholder="Email">
-							<span class="focus-input100"></span>
-						</div>
+                              <a href="#" class="-m-3 flex items-center rounded-md p-3 hover:bg-gray-50">
+                                 <svg class="h-6 w-6 flex-shrink-0 text-indigo-600"
+                                    x-description="Heroicon name: outline/arrow-path" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                       d="M4.5 12c0-1.232.046-2.453.138-3.662a4.006 4.006 0 013.7-3.7 48.678 48.678 0 017.324 0 4.006 4.006 0 013.7 3.7c.017.22.032.441.046.662M4.5 12l-3-3m3 3l3-3m12 3c0 1.232-.046 2.453-.138 3.662a4.006 4.006 0 01-3.7 3.7 48.657 48.657 0 01-7.324 0 4.006 4.006 0 01-3.7-3.7c-.017-.22-.032-.441-.046-.662M19.5 12l-3 3m3-3l3 3">
+                                    </path>
+                                 </svg>
+                                 <span class="ml-3 text-base font-medium text-gray-900">Automations</span>
+                              </a>
 
-						<div class="w-full">
-							<button class="flex-c-m s1-txt2 size5 how-btn1 trans-04">
-								Get Updates
-							</button>
-						</div>
-					</form>
+                           </nav>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
 
-					<p class="s1-txt5 txt-center wsize2 m-lr-auto p-t-20">
-						And don’t worry, we hate spam too! You can unsubcribe at anytime.
-					</p>
-				</div>
-			</div>
+      <main>
+         <section class="pt-20">
+            <div class="container flex flex-col xl:flex-row">
+               <div class="relative xl:pt-32 z-10 max-w-[36.0625rem] xl:max-w-full text-center mx-auto xl:ml-0 xl:text-left xl:w-[60%]">
+                  <div class="inline-flex flex-row items-center py-1 px-3 rounded-[.625rem] md:text-[1.125rem] text-[.875rem] text-text-color mb-2 gradient-discount">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.4" d="M15.9988 29.331C14.9735 29.331 13.9495 28.9417 13.1668 28.1643L12.1935 27.191C11.8161 26.815 11.3108 26.607 10.7748 26.6057H9.40546C7.19212 26.6057 5.39079 24.8043 5.39079 22.591V21.2203C5.38946 20.6857 5.18146 20.1803 4.80412 19.8003L3.84679 18.8443C2.27879 17.2857 2.27212 14.7377 3.83212 13.1683L4.80546 12.1937C5.18146 11.8163 5.38946 11.311 5.39079 10.775V9.40699C5.39079 7.19232 7.19212 5.39099 9.40546 5.39099H10.7761C11.3108 5.39099 11.8148 5.18299 12.1948 4.80299L13.1535 3.84699C14.7121 2.27899 17.2588 2.27099 18.8295 3.83232L19.8028 4.80565C20.1815 5.18299 20.6855 5.39099 21.2201 5.39099H22.5908C24.8041 5.39099 26.6055 7.19232 26.6055 9.40699V10.7763C26.6068 11.311 26.8148 11.8163 27.1921 12.1963L28.1495 13.1537C28.9081 13.9083 29.3281 14.9137 29.3321 15.987C29.3348 17.0537 28.9241 18.0577 28.1761 18.8163C28.1628 18.8297 28.1508 18.8443 28.1375 18.8563L27.1908 19.803C26.8148 20.1803 26.6068 20.6857 26.6055 21.2217V22.591C26.6055 24.8043 24.8041 26.6057 22.5908 26.6057H21.2201C20.6855 26.607 20.1801 26.815 19.8015 27.1923L18.8428 28.1497C18.0615 28.9363 17.0295 29.331 15.9988 29.331Z" fill="#393939"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3904 13.4012C13.1704 13.6212 12.8851 13.7399 12.5691 13.7399C12.2731 13.7399 11.9824 13.6186 11.7491 13.3999C11.5277 13.1799 11.4024 12.8786 11.4024 12.5732C11.4024 12.2826 11.5251 11.9839 11.7411 11.7532C11.8597 11.6332 12.0011 11.5426 12.1424 11.4946C12.5451 11.3106 13.0797 11.4186 13.3971 11.7519C13.5104 11.8652 13.5971 11.9892 13.6544 12.1186C13.7171 12.2572 13.7491 12.4146 13.7491 12.5732C13.7491 12.8906 13.6224 13.1852 13.3904 13.4012ZM20.254 11.7464C19.7993 11.2931 19.0593 11.2931 18.6047 11.7464L11.7513 18.5998C11.2967 19.0544 11.2967 19.7944 11.7513 20.2504C11.9727 20.4704 12.2647 20.5918 12.5767 20.5918C12.8887 20.5918 13.1807 20.4704 13.4007 20.2504L20.254 13.3971C20.7087 12.9411 20.7087 12.2024 20.254 11.7464ZM19.8744 18.3519C19.4424 18.1706 18.9304 18.2692 18.5891 18.6106C18.5184 18.6932 18.4184 18.8212 18.3504 18.9719C18.2784 19.1346 18.2691 19.3092 18.2691 19.4266C18.2691 19.5439 18.2784 19.7172 18.3504 19.8799C18.4171 20.0292 18.4971 20.1506 18.6024 20.2559C18.8437 20.4799 19.1237 20.5932 19.4357 20.5932C19.7317 20.5932 20.0224 20.4732 20.2611 20.2506C20.4731 20.0386 20.5891 19.7452 20.5891 19.4266C20.5891 19.1066 20.4731 18.8146 20.2597 18.6012C20.1424 18.4852 20.0011 18.3946 19.8744 18.3519Z" fill="#00F6FF"/>
+                     </svg>
+                        
+                     <span>20% DISCOUNT FOR 1 <span class="text-white">MONTH</span> ACCOUNT</span>
+                  </div>
 
-		</div>
-	</div>
+                  <h1 class="mx-auto xl:mx-0 max-w-[23.75rem] md:max-w-[35rem] 2xl:max-w-full text-[2.375rem] lg:text-[2.875rem] 2xl:text-[4.5rem] md:leading-[3.1875rem] 2xl:leading-snug leading-[2.25rem] mb-3 font-black">
+                     The Next <br> <span class="text-accent">Generation</span> Payment Method.
+                  </h1>
 
-	
+                  <p class="text-base md:text-[1.125rem] md:leading-9 mb-5 text-text-color max-w-[35.375rem]">
+                     Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. 
+                     We examine annual percentage rates, annual fees.
+                  </p>
+               </div>
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			// Set Endtime here
-			// Endtime must be > current time
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 35,
-			endtimeHours: 18,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York", can be empty
-			// go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+               <div class="md:max-w-[20rem] m-auto xl:max-w-full xl:w-[40%] relative z-10">
+                  <img class="lg:right-0 lg:top-24 z-0 w-[150%]" src="./image/robot.png" alt="">
+               </div>
+            </div>
 
+            <div class="absolute gradient-main-bg w-[50%] h-[60%] top-0 right-0 z-0"></div>
+         </section>
+
+         <section class="py-10 md:py-20">
+            <div class="container">
+               <div class="grid grid-cols-3">
+                  <div class="flex flex-col text-center mb-8 md:mb-0 md:text-left md:flex-row items-center md:justify-center">
+                     <span class="text-[1.625rem] lg:text-[2.5rem] font-bold">
+                        3800+
+                     </span>
+
+                     <span class="text-accent text-[.625rem] lg:text-[1.25rem] uppercase md:ml-4">User Active</span>
+                  </div>
+                  
+                  <div class="flex flex-col text-center mb-8 md:mb-0 md:text-left md:flex-row items-center md:justify-center">
+                     <span class="text-[1.625rem] lg:text-[2.5rem] font-bold">
+                        230+
+                     </span>
+
+                     <span class="text-accent text-[.625rem] lg:text-[1.25rem] uppercase md:ml-4">
+                        TRUSTED BY COMPANY
+                     </span>
+                  </div>
+
+                  <div class="flex flex-col text-center mb-8 md:mb-0 md:text-left md:flex-row items-center md:justify-center">
+                     <span class="text-[1.625rem] lg:text-[2.5rem] font-bold">
+                        $230M+
+                     </span>
+
+                     <span class="text-accent text-[.625rem] lg:text-[1.25rem] uppercase md:ml-4">
+                        TRANSACTION
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="py-10 md:py-20 relative">
+            <div class="container">
+               <div class="lg:flex lg:flex-row z-10 relative lg:mb-0 mb-10">
+                  <div class="text-center lg:text-left lg:w-1/2 mb-12 lg:mb-0">
+                     <div class="lg:mb-8 mb-4">
+                        <h2 class="text-[1.625rem] lg:text-[2.25rem] xl:text-[3rem] font-bold leading-relaxed">You do the business, we’ll handle the money.</h2>
+                     </div>
+                     
+                     <div class="mb-7 lg:mb-12">
+                        <p class="text-base xl:text-[1.125rem] lg:leading-9 text-text-color leading-6">
+                           With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
+                        </p>
+                     </div>
+
+                     <div>
+                        <a href="#" class="inline-block md:py-5 md:px-8 py-3 px-5 rounded-xl bg-accent text-main">
+                           Get Started
+                        </a>
+                     </div>
+                  </div>
+
+                  <div class="lg:w-1/2 lg:pl-5 flex justify-center lg:justify-end">
+                     <div class="max-w-[30rem] flex flex-col items-center lg:items-end">
+                        <div class="py-[1.5625rem] px-[1.25rem] rounded-[1.25rem] gradient-hover">
+                           <div class="flex flex-row">
+                              <div class="flex shrink-0 items-center justify-center w-[2.5rem] h-[2.5rem] md:w-[64px] md:h-[4rem] rounded-full bg-icon-bg">
+                                 <svg class="w-[1.25rem] h-[1.25rem] md:w-[2rem] md:h-[2rem]" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M29.4696 23.7122C29.0552 24.1138 28.8648 24.6946 28.9592 25.2642L30.3816 33.1362C30.5016 33.8034 30.22 34.4786 29.6616 34.8642C29.1144 35.2642 28.3864 35.3122 27.7896 34.9922L20.7032 31.2962C20.4568 31.165 20.1832 31.0946 19.9032 31.0866H19.4696C19.3192 31.109 19.172 31.157 19.0376 31.2306L11.9496 34.9442C11.5992 35.1202 11.2024 35.1826 10.8136 35.1202C9.86639 34.941 9.23439 34.0386 9.38959 33.0866L10.8136 25.2146C10.908 24.6402 10.7176 24.0562 10.3032 23.6482L4.52559 18.0482C4.04239 17.5794 3.87439 16.8754 4.09519 16.2402C4.30959 15.6066 4.85679 15.1442 5.51759 15.0402L13.4696 13.8866C14.0744 13.8242 14.6056 13.4562 14.8776 12.9122L18.3816 5.72817C18.4648 5.56817 18.572 5.42097 18.7016 5.29617L18.8456 5.18417C18.9208 5.10097 19.0072 5.03217 19.1032 4.97617L19.2776 4.91217L19.5496 4.80017H20.2232C20.8248 4.86257 21.3544 5.22257 21.6312 5.76017L25.1816 12.9122C25.4376 13.4354 25.9352 13.7986 26.5096 13.8866L34.4616 15.0402C35.1336 15.1362 35.6952 15.6002 35.9176 16.2402C36.1272 16.8818 35.9464 17.5858 35.4536 18.0482L29.4696 23.7122Z" fill="#00F6FF"/>
+                                 </svg>                              
+                              </div>
+   
+                              <div class="pl-[1.25rem]">
+                                 <div class="uppercase text-base md:text-lg font-bold">Rewards</div>
+   
+                                 <div class="text-text-color text-[.75rem] md:text-base">The best credit cards offer some tantalizing
+                                    combinations of promotions and prizes
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+   
+                        <div class="py-[1.5625rem] px-[1.25rem] rounded-[1.25rem] gradient-hover">
+                           <div class="flex flex-row">
+                              <div class="flex shrink-0 items-center justify-center w-[2.5rem] h-[2.5rem] md:w-[64px] md:h-[4rem] rounded-full bg-icon-bg">
+                                 <svg class="w-[1.25rem] h-[1.25rem] md:w-[2rem] md:h-[2rem]" width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.565 31.8619C13.7422 31.9544 13.9403 32.0015 14.1384 31.9999C14.3365 31.9984 14.5331 31.9497 14.7119 31.8556L20.4205 28.8039C22.0393 27.941 23.307 26.9761 24.296 25.8527C26.4464 23.4051 27.6206 20.2813 27.5997 17.0602L27.5321 6.43517C27.5256 5.21138 26.7218 4.11938 25.5331 3.72243L14.9132 0.159303C14.2737 -0.0572148 13.573 -0.0525079 12.9448 0.170286L2.36522 3.8605C1.1829 4.27314 0.39362 5.37298 0.400064 6.59834L0.467716 17.2155C0.488657 20.4413 1.70319 23.551 3.88902 25.9735C4.8877 27.0812 6.16666 28.032 7.80321 28.8808L13.565 31.8619ZM12.0538 19.3743C12.2922 19.6034 12.6014 19.7163 12.9107 19.7132C13.22 19.7116 13.5276 19.5955 13.7628 19.3633L20.0014 13.213C20.4701 12.7501 20.4653 12.0064 19.9917 11.5498C19.5165 11.0933 18.7514 11.0964 18.2826 11.5593L12.893 16.8718L10.6862 14.7505C10.211 14.294 9.44751 14.2987 8.97717 14.7615C8.50843 15.2244 8.51326 15.9681 8.98844 16.4246L12.0538 19.3743Z" fill="#00F6FF"/>
+                                 </svg>                       
+                              </div>
+   
+                              <div class="pl-[1.25rem]">
+                                 <div class="uppercase text-base md:text-lg font-bold">100% Secured</div>
+   
+                                 <div class="text-text-color text-[.75rem] md:text-base">
+                                    We take proactive steps make sure your information and transactions are secure.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+   
+                        <div class="py-[1.5625rem] px-[1.25rem] rounded-[1.25rem] gradient-hover">
+                           <div class="flex flex-row">
+                              <div class="flex shrink-0 items-center justify-center w-[2.5rem] h-[2.5rem] md:w-[64px] md:h-[4rem] rounded-full bg-icon-bg">
+                                 <svg class="w-[1.25rem] h-[1.25rem] md:w-[2rem] md:h-[2rem]" width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.4965 0.931172C30.6962 0.109757 29.5117 -0.196261 28.4072 0.125863L2.6527 7.61524C1.48742 7.93897 0.661482 8.8683 0.438991 10.0489C0.211698 11.2504 1.00562 12.7757 2.04285 13.4135L10.0957 18.3629C10.9217 18.8702 11.9877 18.743 12.6712 18.0537L21.8926 8.77488C22.3568 8.2917 23.1251 8.2917 23.5893 8.77488C24.0535 9.24196 24.0535 9.99895 23.5893 10.4821L14.3519 19.7625C13.6668 20.4503 13.5388 21.5213 14.043 22.3524L18.9634 30.486C19.5396 31.4524 20.532 32 21.6205 32C21.7485 32 21.8926 32 22.0206 31.9839C23.2691 31.8228 24.2615 30.9692 24.6297 29.7612L32.2648 4.03967C32.601 2.94445 32.2968 1.75259 31.4965 0.931172Z" fill="#00F6FF"/>
+                                 </svg>                
+                              </div>
+   
+                              <div class="pl-[1.25rem]">
+                                 <div class="uppercase text-base md:text-lg font-bold">Balance Transfer</div>
+   
+                                 <div class="text-text-color text-[.75rem] md:text-base">
+                                    A balance transfer credit card can save you a lot of money in interest charges.
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="absolute gradient-main-bg w-[50%] h-[100%] top-[50%] left-[-20%] z-0"></div>
+         </section>
+
+         <section class="py-10 md:py-20">
+            <div class="container">
+               <div class="lg:flex lg:flex-row z-10 relative lg:mb-0 mb-10">
+                  <div class="lg:w-1/2 mb-12 lg:mb-0">
+                     <img src="./image/bill.png" alt="">
+                  </div>
+
+                  <div class="lg:w-1/2 lg:pl-5 flex justify-center lg:justify-end">
+                     <div class="max-w-[30rem] flex flex-col lg:items-start items-center lg:text-left text-center">
+                        <div class="lg:mb-8 mb-4">
+                           <h2 class="text-[1.625rem] lg:text-[2.25rem] xl:text-[3rem] font-bold leading-relaxed">
+                              Easily control your billing & invoicing.
+                           </h2>
+                        </div>
+                        
+                        <div class="mb-7 lg:mb-12">
+                           <p class="text-base xl:text-[1.125rem] lg:leading-9 text-text-color leading-6">
+                              Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. 
+                              Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+                           </p>
+                        </div>
+   
+                        <div class="flex flex-row">
+                           <a href="#" class="mr-8 inline-flex">
+                              <img src="./image/apple.svg" alt="">
+                           </a>
+
+                           <a href="#" class="inline-flex">
+                              <img src="./image/google.svg" alt="">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="py-10 md:py-20 relative">
+            <div class="container">
+               <div class="lg:flex lg:flex-row z-10 relative lg:mb-0 mb-10">
+                  <div class="text-center lg:text-left lg:w-1/2 mb-12 lg:mb-0">
+                     <div class="lg:mb-8 mb-4">
+                        <h2 class="text-[1.625rem] lg:text-[2.25rem] xl:text-[3rem] font-bold leading-relaxed">
+                           Find a better card deal in few easy steps.
+                        </h2>
+                     </div>
+                     
+                     <div class="mb-7 lg:mb-12">
+                        <p class="text-base xl:text-[1.125rem] lg:leading-9 text-text-color leading-6">
+                           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+                        </p>
+                     </div>
+
+                     <div>
+                        <a href="#" class="inline-block md:py-5 md:px-8 py-3 px-5 rounded-xl bg-accent text-main">
+                           Get Started
+                        </a>
+                     </div>
+                  </div>
+
+                  <div class="lg:w-1/2 lg:pl-5 flex justify-center lg:justify-end">
+                     <div class="max-w-[30rem]">
+                        <img src="./image/card.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="absolute gradient-main-bg w-[50%] h-[100%] top-[20%] right-[-20%] z-0"></div>
+         </section>
+
+         <section class="py-10 md:py-20 relative">
+            <div class="container">
+               <div class="lg:flex lg:flex-row z-10 relative mb-10">
+                  <div class="text-center lg:text-left lg:w-1/2 mb-12 lg:mb-0">
+                     <h2 class="text-[1.625rem] lg:text-[2.25rem] xl:text-[3rem] font-bold leading-relaxed">
+                        What people are <br> saying about us
+                     </h2>
+                  </div>
+
+                  <div class="lg:w-1/2 lg:pl-5 flex justify-center lg:justify-end">
+                     <div class="max-w-[30rem] text-center lg:text-left">
+                        <p class="text-base xl:text-[1.125rem] lg:leading-9 text-text-color leading-6">
+                           Everything you need to accept card payments and grow your business anywhere on the planet.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="grid md:grid-cols-3">
+                  <div class="lg:py-[3.75rem] lg:px-[2.5rem] py-[1.875rem] px-[1.25rem] gradient-hover rounded-[1.25rem] lg:mb-0 mb-8">
+                     <div class="mb-[1.25rem] lg:mb-[2.5rem]">
+                        <img class="w-[2.625rem] h-[1.6875rem]" src="./image/arrow.svg" alt="">
+                     </div>
+
+                     <div class="mb-[1.5rem]">
+                        <p class="text-base xl:text-[1.125rem] lg:leading-9 leading-6">
+                           Everything you need to accept card payments and grow your business anywhere on the planet.
+                        </p>
+                     </div>
+
+                     <div class="flex flex-row">
+                        <div class="relative w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                           <img class="absolute w-full h-full object-cover" src="./image/people1.jpg" alt="">
+                        </div>
+
+                        <div class="pl-5">
+                           <div class="text-[1.125rem] lg:text-[1.25rem]">Herman Jensen</div>
+                           <div class="text-text-color">Founder & Leader</div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="lg:py-[3.75rem] lg:px-[2.5rem] py-[1.875rem] px-[1.25rem] gradient-hover rounded-[1.25rem] lg:mb-0 mb-8">
+                     <div class="mb-[1.25rem] lg:mb-[2.5rem]">
+                        <img class="w-[2.625rem] h-[1.6875rem]" src="./image/arrow.svg" alt="">
+                     </div>
+
+                     <div class="mb-[1.5rem]">
+                        <p class="text-base xl:text-[1.125rem] lg:leading-9 leading-6">
+                           Everything you need to accept card payments and grow your business anywhere on the planet.
+                        </p>
+                     </div>
+
+                     <div class="flex flex-row">
+                        <div class="relative w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                           <img class="absolute w-full h-full object-cover" src="./image/people2.jpg" alt="">
+                        </div>
+
+                        <div class="pl-5">
+                           <div class="text-[1.125rem] lg:text-[1.25rem]">Herman Jensen</div>
+                           <div class="text-text-color">Founder & Leader</div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="lg:py-[3.75rem] lg:px-[2.5rem] py-[1.875rem] px-[1.25rem] gradient-hover rounded-[1.25rem]">
+                     <div class="mb-[1.25rem] lg:mb-[2.5rem]">
+                        <img class="w-[2.625rem] h-[1.6875rem]" src="./image/arrow.svg" alt="">
+                     </div>
+
+                     <div class="mb-[1.5rem]">
+                        <p class="text-base xl:text-[1.125rem] lg:leading-9 leading-6">
+                           Everything you need to accept card payments and grow your business anywhere on the planet.
+                        </p>
+                     </div>
+
+                     <div class="flex flex-row">
+                        <div class="relative w-[3rem] h-[3rem] rounded-full overflow-hidden">
+                           <img class="absolute w-full h-full object-cover" src="./image/people3.jpg" alt="">
+                        </div>
+
+                        <div class="pl-5">
+                           <div class="text-[1.125rem] lg:text-[1.25rem]">Herman Jensen</div>
+                           <div class="text-text-color">Founder & Leader</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="py-10 md:py-20">
+            <div class="container">
+               <div class="flex flex-wrap items-center">
+                  <div class="w-1/2 md:w-1/4 px-10 mb-5 md:mb-0">
+                     <img class="w-full max-w-[11.8125rem] m-auto" src="./image/airbnb.png" alt="">
+                  </div>
+
+                  <div class="w-1/2 md:w-1/4 px-10 mb-5 md:mb-0">
+                     <img class="w-full max-w-[11.8125rem] m-auto" src="./image/binance.png" alt="">
+                  </div>
+
+                  <div class="w-1/2 md:w-1/4 px-10 mb-5 md:mb-0">
+                     <img class="w-full max-w-[11.8125rem] m-auto" src="./image/coinbase.png" alt="">
+                  </div>
+
+                  <div class="w-1/2 md:w-1/4 px-10 mb-5 md:mb-0">
+                     <img class="w-full max-w-[11.8125rem] m-auto" src="./image/dropbox.png" alt="">
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="py-10 md:py-20">
+            <div class="container">
+               <div class="flex flex-wrap
+                  flex-col
+                  lg:flex-row
+                  justify-between
+                  rounded-[1.25rem]
+                  gradient-bg lg:px-[6.25rem]
+                  lg:py-[4.375rem] 
+                  py-[1.5625rem] 
+                  px-[1.25rem]
+                  text-center lg:text-left items-center">
+                  <div class="mb-4 lg:w-[70%]">
+                     <h2 class="text-[1.625rem] lg:text-[2.25rem] xl:text-[3rem] font-bold leading-relaxed lg:mb-6 mb-4">
+                        Let’s try our service now!
+                     </h2>
+
+                     <p class="text-base xl:text-[1.125rem] lg:leading-9 text-text-color leading-6 lg:max-w-[27.8125rem]">
+                        Everything you need to accept card payments and grow your business anywhere on the planet.
+                     </p>
+                  </div>
+
+                  <div>
+                     <a href="#" class="inline-block md:py-5 md:px-8 py-3 px-5 rounded-xl bg-accent text-main">
+                        Get Started
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <footer class="dark:bg-gray-900">
+         <div class="container">
+            <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
+               <div>
+                   <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
+                   <ul class="text-gray-500 dark:text-gray-400">
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">About</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Careers</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Brand Center</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Blog</a>
+                       </li>
+                   </ul>
+               </div>
+               <div>
+                   <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Help center</h2>
+                   <ul class="text-gray-500 dark:text-gray-400">
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Discord Server</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Twitter</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Facebook</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Contact Us</a>
+                       </li>
+                   </ul>
+               </div>
+               <div>
+                   <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Legal</h2>
+                   <ul class="text-gray-500 dark:text-gray-400">
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Privacy Policy</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Licensing</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Terms &amp; Conditions</a>
+                       </li>
+                   </ul>
+               </div>
+               <div>
+                   <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Download</h2>
+                   <ul class="text-gray-500 dark:text-gray-400">
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">iOS</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Android</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">Windows</a>
+                       </li>
+                       <li class="mb-4">
+                           <a href="#" class="text-text-color hover:underline">MacOS</a>
+                       </li>
+                   </ul>
+               </div>
+           </div>
+           <div class="py-6 px-4 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+               <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2022 <a class="text-text-color" href="https://templatesawesome.com/">Templates Awesome</a>. All Rights Reserved.
+               </span>
+           </div>
+         </div>
+     </footer>
+   </div>
+
+   <script src="./js/main.js"></script>
 </body>
 </html>
